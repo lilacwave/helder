@@ -45,7 +45,7 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-xs sm:max-w-sm lg:ml-auto lg:max-w-md">
           <div className="overflow-hidden rounded-3xl border border-[#1e1e2a] h-[75vh]">
             <img
-              src="helder/public/hero-img.PNG"
+              src="helder/public/hero-img.png"
               alt="Helder Rodrigues a treinar"
               className="h-full w-full object-cover object-top"
             />
