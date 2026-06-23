@@ -9,6 +9,7 @@ import SpecializedService from './components/SpecializedService'
 import Support from './components/Support'
 import HoursAndCTA from './components/HoursAndCTA'
 import Footer from './components/Footer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <HoursAndCTA />
       </main>
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }

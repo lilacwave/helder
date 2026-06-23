@@ -4,8 +4,8 @@ import Logo from './Logo'
 
 const links = [
   { label: 'Início', href: '#inicio' },
-  { label: 'Sobre', href: '#sobre' },
   { label: 'Resultados', href: '#resultados' },
+  { label: 'Sobre', href: '#sobre' },
   { label: 'Metodologia', href: '#metodologia' },
   { label: 'Serviços', href: '#servicos' },
   { label: 'Contacto', href: '#contacto' },
