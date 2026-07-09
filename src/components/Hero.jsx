@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
+      role="banner"
       className="relative overflow-hidden px-5 pb-20 pt-32 lg:px-8 lg:pb-28 lg:pt-32"
     >
       <div className="pointer-events-none absolute -right-32 top-20 h-96 w-96 rounded-full bg-brand/10 blur-3xl" />
@@ -15,14 +16,13 @@ export default function Hero() {
           </p>
 
           <h1 className="font-display text-4xl font-black uppercase italic leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
-            A ciência do{' '}
-            <span className="text-brand">movimento</span> aplicada a você
+            A ciência do <span className="text-brand">movimento</span> aplicada a você
           </h1>
 
+          <h2 className="sr-only">Avaliação, acompanhamento e resultados orientados por ciência</h2>
+
           <p className="max-w-xl text-base leading-relaxed text-[#8b8b9a] lg:text-lg">
-            Treino personalizado baseado em evidência científica. Avaliação
-            completa, acompanhamento contínuo e resultados reais para as suas
-            necessidades.
+            Plano de treino individualizado com base em evidências — avaliação completa, estratégias de força, mobilidade e monitoramento contínuo para atingir metas de performance e bem-estar.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -45,9 +45,11 @@ export default function Hero() {
         <div className="relative mx-auto w-full max-w-xs sm:max-w-sm lg:ml-auto lg:max-w-md">
           <div className="overflow-hidden rounded-3xl border border-[#1e1e2a] h-[75vh]">
             <img
-              src="/hero-img.PNG"
-              alt="Helder Rodrigues a treinar"
+              src="/hero-img.webp"
+              alt="Treino personalizado com Hélder Rodrigues — performance e força"
               className="h-full w-full object-cover object-top"
+              loading="eager"
+              decoding="async"
             />
           </div>
 

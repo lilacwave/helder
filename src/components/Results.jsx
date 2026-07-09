@@ -41,8 +41,10 @@ export default function Results() {
               <div className="relative overflow-hidden">
                 <img
                   src={client.image}
-                  alt={client.name}
+                  alt={`${client.name} com treino personalizado e acompanhamento especializado`}
                   className="aspect-[4/5] w-full object-cover transition duration-500 group-hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">

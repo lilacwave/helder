@@ -14,8 +14,10 @@ export default function SpecializedService() {
         <div className="overflow-hidden rounded-2xl border border-[#1e1e2a]">
           <img
             src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80"
-            alt="Treino de força com barra"
+            alt="Treino funcional e avaliação do movimento para performance"
             className="aspect-square w-full object-cover"
+            loading="lazy"
+            decoding="async"
           />
         </div>
 
@@ -24,7 +26,7 @@ export default function SpecializedService() {
             Serviço especializado
           </p>
           <h2 className="mb-6 font-display text-3xl font-black uppercase italic leading-tight text-white sm:text-4xl">
-            Dissecção corporal de <span className="text-brand">precisão</span>
+            Análise do movimento e treino funcional para corrigir desequilíbrios
           </h2>
           <p className="mb-8 text-base leading-relaxed text-[#8b8b9a]">
             Análise profunda da estrutura corporal para identificar
