@@ -51,7 +51,7 @@ export default function Results() {
                   <p className="font-display text-xl font-bold uppercase italic text-white">
                     {client.name}
                   </p>
-                  <p className="mt-3 max-h-full overflow-visible text-sm leading-relaxed text-[#8b8b9a] opacity-100 md:max-h-0 md:overflow-hidden md:opacity-0 md:transition-all md:duration-500 md:ease-out md:group-hover:max-h-28 md:group-hover:opacity-100">
+                  <p className="mt-2 text-sm leading-relaxed text-[#8b8b9a]">
                     {client.label}
                   </p>
                 </div>

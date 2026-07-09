@@ -1,41 +1,10 @@
-/* Local font declarations — place .woff2 files in /public/fonts/
-   Best practices applied: woff2, font-display: swap, crossOrigin preloads.
-   Files expected:
-     /public/fonts/InterTight-Regular.woff2
-     /public/fonts/InterTight-600.woff2
-     /public/fonts/InterTight-800.woff2
-*/
-
-@font-face {
-  font-family: 'Inter Tight Local';
-  src: url('/fonts/InterTight-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter Tight Local';
-  src: url('/fonts/InterTight-600.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter Tight Local';
-  src: url('/fonts/InterTight-800.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
+/* Font declarations - loaded via Google Fonts CDN in index.html */
 
 :root {
-  --font-sans-local: 'Inter Tight Local', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --font-sans-local: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
-
-/* Use local font variable in case you want to reference it directly */
 
 html, body {
   font-family: var(--font-sans-local);
 }
+

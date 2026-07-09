@@ -1,8 +1,7 @@
-import React from 'react'
 import { FaWhatsapp } from 'react-icons/fa'
 
-export default function WhatsAppButton({ phone = '5511999999999', message = 'Olá! Gostaria de saber mais.' }) {
-  const href = `https://wa.me/5551997316338?text=Ol%C3%A1%2C%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o!`
+export default function WhatsAppButton({ phone = '5551997316338', message = 'Olá! Quero agendar uma avaliação.' }) {
+  const href = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
 
   return (
     <a
